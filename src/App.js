@@ -29,7 +29,7 @@ const App = () => {
       <h2>Task 3. List of Friends</h2>
       <FriendList friends={friends} />
       <h2>Task 4. Transactions</h2>
-      <Transactions items={transactions} />;
+      <Transactions items={transactions} />
     </div>
   );
 };
