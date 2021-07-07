@@ -14,8 +14,7 @@ const Transactions = ({ items }) => {
         </thead>
 
         <tbody>
-          {items.map((elem) => {
-            const { id, type, amount, currency } = elem;
+          {items.map(({ id, type, amount, currency }) => {
             return (
               <tr key={id}>
                 <td>{type}</td>

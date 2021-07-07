@@ -7,8 +7,7 @@ const Statistics = ({ title, stats }) => {
       <section class="statistics">
         {title && <h2 class="title">{title}</h2>}
         <ul class="stat-list">
-          {stats.map((elem) => {
-            const { id, label, percentage } = elem;
+          {stats.map(({ id, label, percentage }) => {
             return (
               <li class="item" key={id}>
                 <span class="label">{label} </span>
