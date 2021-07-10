@@ -4,13 +4,13 @@ import Container from "./components/Container/Container";
 
 import Profile from "./components/Profile/Profile";
 import Statistics from "./components/Statistics/Statistics";
-import FriendList from "./components/FriendList/FriendList";
+import FriendList from "./components/Friends/FriendList";
 import Transactions from "./components/Transactions/Transactions";
 
-import user from "./tasks/social-profile/user.json";
-import statisticalData from "./tasks/statistics/statistical-data.json";
-import friends from "./tasks/friend-list/friends.json";
-import transactions from "./tasks/transaction-history/transactions.json";
+import user from "./db/user.json";
+import statisticalData from "./db/statistical-data.json";
+import friends from "./db/friends.json";
+import transactions from "./db/transactions.json";
 
 const App = () => {
   return (

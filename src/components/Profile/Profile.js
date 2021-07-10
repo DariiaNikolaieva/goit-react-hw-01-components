@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import FollowersIcon from "../SVG/Followers";
-import ViewsIcon from "../SVG/Views";
-import LikesIcon from "../SVG/Likes";
+import FollowersIcon from "./SVG/Followers";
+import ViewsIcon from "./SVG/Views";
+import LikesIcon from "./SVG/Likes";
 
 import styles from "./Profile.module.css";
 

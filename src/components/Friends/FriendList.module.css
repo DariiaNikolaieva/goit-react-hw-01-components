@@ -6,11 +6,8 @@
   margin-bottom: 20px;
 }
 
-.item {
-  display: flex;
-}
-
 .listItem {
+  display: flex;
   list-style: none;
   width: 50%;
   margin: 10px auto;
